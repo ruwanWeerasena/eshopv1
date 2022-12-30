@@ -32,7 +32,7 @@ function App() {
   // };
 
   return (
-    <div className="App">
+    <div>
       <UserContext.Provider value={{authdata,setAuthdata}}>
         <CartContext.Provider value={{cart,setCart}}>
           <BrowserRouter>
