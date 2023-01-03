@@ -1,5 +1,4 @@
 
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./Components/Layout/Header";
 import Footer from "./Components/Layout/Footer";
@@ -32,7 +31,7 @@ function App() {
   // };
 
   return (
-    <div>
+    <div className="App">
       <UserContext.Provider value={{authdata,setAuthdata}}>
         <CartContext.Provider value={{cart,setCart}}>
           <BrowserRouter>

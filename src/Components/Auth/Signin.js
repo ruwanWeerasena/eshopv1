@@ -16,6 +16,7 @@ const navigate = useNavigate();
         try {
         const {data:{result}} = await axios.post("http://localhost:5000/auth/login",logdetails)
         setAuthdata(result);
+        console.log(result);
             
         } catch (error) {
             

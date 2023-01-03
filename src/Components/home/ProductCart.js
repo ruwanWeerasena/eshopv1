@@ -26,7 +26,7 @@ const ProductCart = ({ name, pictureFileName, pictureUri, price, id }) => {
                         }
                     });
                     // const {product,id,...CartItem} = data;
-                    cart.push(item);
+                    cart.push(data);
                     setCart(cart)
                     console.log(111,data,cart);
                     
@@ -42,7 +42,7 @@ const ProductCart = ({ name, pictureFileName, pictureUri, price, id }) => {
                         }
                     });
                     // const {product,id,...CartItem} = data;
-                    cart.push(item);
+                    cart.push(data);
                     setCart(cart)
                     console.log(222,data,cart);
                     
